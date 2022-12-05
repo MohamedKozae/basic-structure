@@ -1,0 +1,276 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+/* Start Navbar Style  */
+.navbar{
+    width: 100vw;
+}
+.navbar .container-fluid{
+    margin: 0px 100px;
+} 
+.navbar .navbar-brand img{
+    height: 2rem;
+}
+.navbar .navbar-collapse{
+    justify-content: flex-end;
+}
+.navbar .navbar-nav .nav-item{
+    padding: 0 0.5rem;
+    font-size: 18px;
+}
+.navbar .navbar-nav .nav-link:hover{
+    color: #ffc800 !important;
+}
+/* Start Header Style  */
+.mainhead{
+    background-image: url(../assets/img/header-bg.jpg);
+    height: 100vh;
+    background-size:cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    text-align: center;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 80px;
+}
+.mainhead .btn:hover{
+    opacity: 0.8;
+}
+/* Start Services Style  */
+.services{
+    margin-top: 100px;
+}
+.services .row .items{
+    text-align: center;
+    padding-top: 80px;
+}
+.services .row{
+    margin: 20px auto 50px;
+}
+.services .row p{
+    text-align: justify;
+    line-height: 1.5;
+}
+.services .row .items .fa-circle{
+    width: 150px;
+    height: 150px;
+}
+.services .row .items .fa-lock{
+    width: 80px;
+    height: 80px;
+    margin-left: -120px;
+    margin-bottom: 40px;
+}
+.services .row .items .fa-laptop{
+    width: 80px;
+    height: 80px;
+    margin-left: -120px;
+    margin-bottom: 40px;
+}
+.services .row .items .fa-shopping-cart{
+    width: 80px;
+    height: 80px;
+    margin-left: -120px;
+    margin-bottom: 40px;
+}
+/* Start Portfolio Style  */
+.portfolio{
+    padding: 100px 0px;
+}
+.portfolio .container .row{
+    overflow: hidden;
+}
+.portfolio .row .portitems{
+    padding-top: 50px;
+}
+.portfolio .container .row .portitem a{
+    cursor: pointer;
+}
+.portfolio .container .row .portitem a:hover .fa-plus{
+    display: inline;
+}
+.portfolio .container .row .portitem a:hover{
+    background-color: #ffc800;
+    opacity: 0.5;
+    color: #ffc800;
+}
+.portfolio .container .row .portitem .itemimage img{
+    width: 100%;
+    height: 100%;
+}
+.portfolio .container .row .portitem .itemimage img:hover .itemimage .fa-plus{
+    display: flex;
+}
+.portfolio .container .row .portitem .itemimage .fa-plus{
+    position: absolute;
+    margin-left: -15%;
+    margin-top: 9%;
+    font-size: 50px;
+    color: white;
+    display: none;
+}
+
+/* Start About Style  */
+.about{
+    margin: 100px auto 50px;
+}
+.about .abouthead{
+    margin-bottom: 80px;
+}
+.about .aboutcontent{
+    list-style: none;
+}
+.about .aboutcontent li{
+    display: inline-block;
+    margin-bottom: 50px;
+}
+.about .aboutcontent .listimage{
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+    margin-left: 3%;
+    text-align: center;
+    display: inline-block;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about .aboutcontent .listimage2{
+    background-color: #eee;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    display: inline-block;
+    margin-left: 41%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about .aboutcontent .listimage .img{
+    margin-top: 10px;
+    display: inline;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about .aboutcontent .listdescription-l{
+    text-align: right;
+    width: 38%;
+    float: left;
+    margin-bottom: 50px;
+}
+.about .aboutcontent .listdescription-r{
+    text-align: left;
+    width: 38%;
+    float: right;
+    margin-bottom: 50px;
+}
+.about .aboutcontent .listimage2 .img2{
+    margin-top: 10px;
+    display: inline;
+    width: 90%;
+    height: 90%;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+.about .listimage3{
+    width: 200px;
+    height: 200px;
+    color: white;
+    margin: auto;
+    border: 0.5rem solid #eee;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+
+/* Start Team Members Style  */
+.team{
+    padding: 100px 0px;
+}
+.team .row .teammember img{
+    width: 50%;
+    border: 0.5rem solid rgba(0, 0, 0, 0.1);
+}
+.team .row .teammember{
+    margin-bottom: 50px;
+}
+.team .row .teammember a{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+}
+.team .row .teammember a svg{
+    background-color: black;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+}
+/* Start Logo Style  */
+.logos{
+    padding: 50px 0px;
+}
+.logos .row .logoitem img{
+    width: 50%;
+}
+/* Start Contact style  */
+.contact{
+    background-image: url(../assets/img/map-image.png);
+    background-color: #212529;
+    background-repeat: no-repeat;
+    background-position: center;
+    padding: 100px 0px;
+}
+.contact .text-center{
+    margin-bottom: 50px;
+    color: white;
+}
+.contact .row .leftinputs .forminputs{
+    width: 100%;
+    margin-bottom: 1.5rem;
+}
+.contact .row .formmessage input{
+    width: 100%;
+    height: 200px;
+}
+.contact .contactform button{
+    border: none;
+    margin-top: 50px;
+}
+/* Start Footer Style  */
+.endfooter{
+    padding: 50px 0px;
+}
+.endfooter .row a{
+    text-decoration: none;
+    color: black;
+}
+.endfooter .row a svg{
+    background-color: black;
+    color: white;
+    width: 40px;
+    height: 40px;
+    padding: 10px;
+    border-radius: 50%;
+}
